@@ -20,7 +20,6 @@ class BooksController < ApplicationController
   def show #get specific book info
     if Book.find_by(id: params[:id])
       @book = Book.find_by(id: params[:id])
-
       render json: @book, status: :accepted
     else
       render json: {errors: 'Could not locate book in db'}, status: :unprocessible_entity

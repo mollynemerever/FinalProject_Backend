@@ -16,11 +16,21 @@ class UserbooksController < ApplicationController
   end
 
   def show
-    if Userbook.find_by(user_id: params[:id])
-      @userbooks = Userbook.where(user_id: params[:id]).order(:created_at)
+    if Userbook.find_by(user_id: params[:user_id])
+      @userbooks = Userbook.where(user_id: params[:user_id]).order(:created_at)
       render json: @userbooks, status: :accepted
     else
       render json: {errors: 'Cannot find books for this user'}, status: :failure
+    end
+  end
+
+  def update
+    if Userbook.find_by(id: userbooks_params[:id])
+      @userbook = Userbook.find_by(id: userbooks_params[:id])
+      Userbook.delete(@userbook)
+      render json: @userbooks , status: :accepted
+    else
+      render json: {errors: 'Cannot find book for this user'}, status: :failure
     end
   end
 
