@@ -15,6 +15,15 @@ class UserbooksController < ApplicationController
     end
   end
 
+  def show
+    if Userbook.find_by(user_id: params[:id])
+      @userbooks = Userbook.where(user_id: params[:id]).order(:created_at)
+      render json: @userbooks, status: :accepted
+    else
+      render json: {errors: 'Cannot find books for this user'}, status: :failure
+    end
+  end
+
   private
 
   def userbooks_params
