@@ -1,10 +1,9 @@
 class BooksController < ApplicationController
     skip_before_action :verify_authenticity_token
-    protect_from_forgery with: :null_session
+
 
 
   def create
-
     if Book.find_by(googleId: book_params[:googleId]) #if bookexists
       @book = Book.find_by(googleId: book_params[:googleId])
       render json: @book, status: :accepted
@@ -15,6 +14,16 @@ class BooksController < ApplicationController
       else
         render json: {errors: 'Failed to create book'}, status: :unprocessible_entity
       end
+    end
+  end
+
+  def show #get specific book info
+    if Book.find_by(id: params[:id])
+      @book = Book.find_by(id: params[:id])
+
+      render json: @book, status: :accepted
+    else
+      render json: {errors: 'Could not locate book in db'}, status: :unprocessible_entity
     end
   end
 
