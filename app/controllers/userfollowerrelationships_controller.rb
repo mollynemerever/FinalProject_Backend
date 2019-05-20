@@ -10,6 +10,12 @@ class UserfollowerrelationshipsController < ApplicationController
     end
   end
 
+  def index
+  
+    @all = Userfollowerrelationship.all
+    render json: @all, status: :accepted
+  end
+
   private
 
   def relationship_params
