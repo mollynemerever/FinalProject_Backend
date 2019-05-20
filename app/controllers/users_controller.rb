@@ -33,6 +33,11 @@ class UsersController < ApplicationController
     end
   end
 
+  def index
+    @all = User.all
+    render json: @all, status: :accepted
+  end
+
   private
 
   def user_params
