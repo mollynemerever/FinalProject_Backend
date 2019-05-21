@@ -24,11 +24,19 @@ class UserbooksController < ApplicationController
     end
   end
 
-  def update
+  def update #remove book or update read status
+
     if Userbook.find_by(id: userbooks_params[:id])
       @userbook = Userbook.find_by(id: userbooks_params[:id])
-      Userbook.delete(@userbook)
-      render json: @userbooks , status: :accepted
+      
+      if userbooks_params[:read_status] != nil
+        @userbook.update(read_status: userbooks_params[:read_status])
+
+        render json: @userbook, status: :accepted
+      else
+        Userbook.delete(@userbook)
+        render json: {message: 'book removed'} , status: :accepted
+      end
     else
       render json: {errors: 'Cannot find book for this user'}, status: :failure
     end

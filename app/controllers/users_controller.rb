@@ -24,7 +24,7 @@ class UsersController < ApplicationController
     end
   end
 
-  def update
+  def update 
     if User.find_by(id: params[:id])
       @user = User.find_by(id: params[:id])
       @user.update(full_name: user_params[:full_name], industry: user_params[:industry])
