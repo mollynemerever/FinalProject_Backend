@@ -1,3 +1,3 @@
 class Comment < ApplicationRecord
-  belongs_to :bookcommentuser
+  has_many :bookcommentuser
 end
