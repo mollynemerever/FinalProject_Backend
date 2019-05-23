@@ -11,9 +11,15 @@ class CommentsController < ApplicationController
   end
 
   def show
-    
     @comment = Comment.find_by(id: params[:id])
     render json: @comment, status: :accepted
+  end
+
+  def update
+    #byebug
+    @comment = Comment.find_by(id: params[:comment_id])
+    Comment.delete(@comment)
+    render json: {message: 'Comment Deleted'}
   end
 
 

@@ -3,7 +3,7 @@ class BookcommentusersController < ApplicationController
 
   def index
     @all = Bookcommentuser.all
-    render json: @all 
+    render json: @all
   end
 
   def create
@@ -13,6 +13,13 @@ class BookcommentusersController < ApplicationController
     else
       render json: {error: 'Could not save comment'}
     end
+  end
+
+  def update
+    
+    @bookcommentuser = Bookcommentuser.find_by(id: bookcommentuser_params[:id])
+    Bookcommentuser.delete(@bookcommentuser)
+    render json: {message: 'Book Comment User Instance deleted'}
   end
 
   private
