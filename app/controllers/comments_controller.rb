@@ -16,10 +16,18 @@ class CommentsController < ApplicationController
   end
 
   def update
-    #byebug
-    @comment = Comment.find_by(id: params[:comment_id])
-    Comment.delete(@comment)
-    render json: {message: 'Comment Deleted'}
+    if @comment = Comment.find_by(id: params[:comment_id])
+      @comment = Comment.find_by(id: params[:comment_id])
+      if params[:text] != nil
+       @comment.update(text: params[:text])
+       render json: @comment, status: :accepted
+      else
+       Comment.delete(@comment)
+       render json: {message: 'Comment Deleted'}
+      end
+    else
+      render json: {error: 'Comment Not Found'}
+    end
   end
 
 
