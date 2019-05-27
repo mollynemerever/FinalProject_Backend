@@ -13,14 +13,22 @@ require 'faker'
 # User.create(full_name: 'Hannah Lee', first_name: 'Hannah', email: 'hannahlee@gmail.com', image: 👤, join_year: '2019', industry: 'Human Resources')
 # User.create(full_name: 'Josh Lee', first_name: 'Josh', email: 'joshlee@gmail.com', image: 👤, join_year: '2019', industry: 'Technology, Software, and Computer Services')
 
-5.times do
-  User.create(
-    full_name: Faker::Name.name,
-    email: Faker::Internet.free_email,
-    join_year: '2019',
-    industry: 'Technology, Software, and Computer Services'
-  )
-end
+# 5.times do
+#   User.create(
+#     full_name: Faker::Name.name,
+#     email: Faker::Internet.free_email,
+#     join_year: '2019',
+#     industry: 'Technology, Software, and Computer Services'
+#   )
+# end
+
+User.create(full_name: 'Angelina Winn', email: 'angelina@gmail.com' , join_year: 2019, image: 'https://images.unsplash.com/photo-1546967191-fdfb13ed6b1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80', industry: 'Technology, Software, and Computer Services')
+User.create(full_name: 'Jennifer Fritz', email: 'jfritz@gmail.com' , join_year: 2019, image: 'https://images.unsplash.com/photo-1548142813-c348350df52b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=670&q=80', industry: 'Consulting')
+User.create(full_name: 'Noah Pierre', email: 'noahpierrea@gmail.com' , join_year: 2019, image: 'https://images.unsplash.com/photo-1543246239-7ae3ded686ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2757&q=80', industry: 'Financial Services')
+User.create(full_name: 'Macie Naquin', email: 'macienaq@gmail.com' , join_year: 2019, image: 'https://images.unsplash.com/photo-1511424187101-2aaa60069357?ixlib=rb-1.2.1&auto=format&fit=crop&w=740&q=80', industry: 'Technology, Software, and Computer Services')
+User.create(full_name: 'Alex Lee', email: 'alexlee@gmail.com' , join_year: 2019, image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2734&q=80', industry: 'Higher Education')
+User.create(full_name: 'Derrick Wells', email: 'derrickwells@gmail.com' , join_year: 2019, image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2734&q=80', industry: 'Marketing and Advertising')
+
 
 
 Book.create(author: 'Harper Lee', description:'The unforgettable novel of a childhood in a sleepy Southern town and the crisis of conscience that rocked it, To Kill A Mockingbird became both an instant bestseller and a critical success when it was first published in 1960. It went on to win the Pulitzer Prize in 1961 and was later made into an Academy Award-winning film, also a classic.Compassionate, dramatic, and deeply moving, To Kill A Mockingbird takes readers to the roots of human behavior - to innocence and experience, kindness and cruelty, love and hatred, humor and pathos. Now with over 18 million copies in print and translated into forty languages, this regional story by a young Alabama woman claims universal appeal. Harper Lee always considered her book to be a simple love story. Today it is regarded as a masterpiece of American literature.', title:'To Kill a Mockingbird',image:'https://images.gr-assets.com/books/1361975680l/2657.jpg')
