@@ -27,7 +27,7 @@ class UsersController < ApplicationController
   def update
     if User.find_by(id: params[:id])
       @user = User.find_by(id: params[:id])
-      @user.update(full_name: user_params[:full_name], industry: user_params[:industry])
+      @user.update(full_name: user_params[:full_name], industry: user_params[:industry], email: user_params[:email])
       render json: @user, status: :accepted
     else
       render json: {errors: 'Cannot update user'}, status: :failure
