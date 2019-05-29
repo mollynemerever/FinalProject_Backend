@@ -27,10 +27,74 @@ User.create(full_name: 'Jennifer Fritz', email: 'jfritz@gmail.com' , join_year: 
 User.create(full_name: 'Noah Pierre', email: 'noahpierrea@gmail.com' , join_year: 2019, image: 'https://images.unsplash.com/photo-1543246239-7ae3ded686ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2757&q=80', industry: 'Financial Services')
 User.create(full_name: 'Macie Naquin', email: 'macienaq@gmail.com' , join_year: 2019, image: 'https://images.unsplash.com/photo-1511424187101-2aaa60069357?ixlib=rb-1.2.1&auto=format&fit=crop&w=740&q=80', industry: 'Technology, Software, and Computer Services')
 User.create(full_name: 'Alex Lee', email: 'alexlee@gmail.com' , join_year: 2019, image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2734&q=80', industry: 'Higher Education')
-User.create(full_name: 'Derrick Wells', email: 'derrickwells@gmail.com' , join_year: 2019, image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2734&q=80', industry: 'Marketing and Advertising')
+User.create(full_name: 'Derrick Wells', email: 'derrickwells@gmail.com' , join_year: 2019, image: 'https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80', industry: 'Marketing and Advertising')
+#Real Life Influencers
+User.create(full_name: 'Ryan Holiday', email: 'rholiday@gmail.com' , join_year: 2019, image: 'https://www.jordanharbinger.com/wp-content/uploads/2018/05/45-ryan-holiday-showart.jpg', industry: 'Higher Education')
+
+User.create(full_name: 'Naval Ravikant', email: 'nravikant@gmail.com' , join_year: 2019, image: 'https://cdn-images-1.medium.com/max/1200/1*8ytMHIAU8jvQ3ckgkEMkUA.jpeg', industry: '"Technology, Software, and Computer Services"')
+
+User.create(full_name: 'Michelle Obama', email: 'mobama@gmail.com' , join_year: 2019, image: 'https://image.cnbcfm.com/api/v1/image/104112634-GettyImages-577604280.jpg?v=1529473309&w=1400&h=950', industry: 'Political Outreach & Philanthropy')
+
+User.create(full_name: 'Paul Graham', email: 'paulgraham@gmail.com' , join_year: 2019, image: 'https://pbs.twimg.com/profile_images/1824002576/pg-railsconf_400x400.jpg', industry: 'Technology, Software, and Computer Services')
+
+User.create(full_name: 'Melinda Gates', email: 'melindagates@gmail.com' , join_year: 2019, image: 'https://image.cnbcfm.com/api/v1/image/103411213-GettyImages-492383455.jpg?v=1532564183&w=1400&h=950', industry: 'Philanthropy')
+
+Book.create(author: 'Marcus Aurelius', description:"Written in Greek, without any intention of publication, by the only Roman emperor who was also a philosopher, the Meditations of Marcus Aurelius (AD 121-180) offer a remarkable series of challenging spiritual reflections and exercises developed as the emperor struggled to understand himself and make sense of the universe.
+Ranging from doubt and despair to conviction and exaltation, they cover such diverse topics as the nature of moral virtue, human rationality, divine providence, and Marcus' own emotions. But while the Meditations were composed to provide personal consolation and encouragement, in developing his beliefs Marcus Aurelius also created one of the greatest of all works of philosophy: a timeless collection of extended meditations and short aphorisms that has been consulted and admired by statesmen, thinkers and readers through the centuries.", title:'Meditations',image:'https://images.gr-assets.com/books/1421618636l/30659.jpg')
+
+Book.create(author:'Tyler Cowen',description:"The widening gap between rich and poor means dealing with one big, uncomfortable truth: If you’re not at the top, you’re at the bottom.The global labor market is changing radically thanks to growth at the high end—and the low. About three quarters of the jobs created in the United States since the great recession pay only a bit more than minimum wage. Still, the United States has more millionaires and billionaires than any country ever, and we continue to mint them. In this eye-opening book, renowned economist and bestselling author Tyler Cowen explains that phenomenon: High earners are taking ever more advantage of machine intelligence in data analysis and achieving ever-better results. Meanwhile, low earners who haven’t committed to learning, to making the most of new technologies, have poor prospects. Nearly every business sector relies less and less on manual labor, and this fact is forever changing the world of work and wages. A steady, secure life somewhere in the middle—average—is over.With The Great Stagnation, Cowen explained why median wages stagnated over the last four decades; in Average Is Over he reveals the essential nature of the new economy, identifies the best path forward for workers and entrepreneurs, and provides readers with actionable advice to make the most of the new economic landscape. It is a challenging and sober must-read but ultimately exciting, good news. In debates about our nation’s economic future, it will be impossible to ignore.",title:'Average Is Over: Powering America Beyond the Age of the Great Stagnation',image:'https://images.gr-assets.com/books/1364849099l/17674998.jpg')
+
+Book.create(author: 'Ron Chernow', description:"John D. Rockefeller, Sr.--history's first billionaire and the patriarch of Americas most famous dynasty--is an icon whose true nature has eluded three generations of historians. Now Ron Chernow, the National Book Award-winning biographer of the Morgan and Warburg banking families, gives us a history of the mogul etched with uncommon objectivity and literary grace . . . as detailed, balanced, and psychologically insightful a portrait of the tycoon as we may ever have (Kirkus Reviews). Titan is the first full-length biography based on unrestricted access to Rockefellers exceptionally rich trove of papers. A landmark publication full of startling revelations, the book will indelibly alter our image of this most enigmatic capitalist.Born the son of a flamboyant, bigamous snake-oil salesman and a pious, straitlaced mother, Rockefeller rose from rustic origins to become the worlds richest man by creating Americas most powerful and feared monopoly, Standard Oil. Branded 'the Octopus' by legions of muckrakers, the trust refined and marketed nearly 90 percent of the oil produced in America. Rockefeller was likely the most controversial businessman in our nations history. Critics charged that his empire was built on unscrupulous tactics: grand-scale collusion with the railroads, predatory pricing, industrial espionage, and wholesale bribery of political officials. The titan spent more than thirty years dodging investigations until Teddy Roosevelt and his trustbusters embarked on a marathon crusade to bring Standard Oil to bay. While providing abundant new evidence of Rockefeller's misdeeds, Chernow discards the stereotype of the cold-blooded monster to sketch an unforgettably human portrait of a quirky, eccentric original. A devout Baptist and temperance advocate, Rockefeller gave money more generously--his chosen philanthropies included the Rockefeller Foundation, the University of Chicago, and what is today Rockefeller University--than anyone before him. Titan presents a finely nuanced portrait of a fascinating, complex man, synthesizing his public and private lives and disclosing numerous family scandals, tragedies, and misfortunes that have never before come to light. John D. Rockefellers story captures a pivotal moment in American history, documenting the dramatic post-Civil War shift from small business to the rise of giant corporations that irrevocably transformed the nation. With cameos by Joseph Pulitzer, William Randolph Hearst, Jay Gould, William Vanderbilt, Ida Tarbell, Andrew Carnegie, Carl Jung, J. Pierpont Morgan, William James, Henry Clay Frick, Mark Twain, and Will Rogers, Titan turns Rockefeller's life into a vivid tapestry of American society in the late nineteenth and early twentieth centuries. It is Ron Chernows signal triumph that he narrates this monumental saga with all the sweep, drama, and insight that this giant subject deserves.", title:'Titan: The Life of John D. Rockefeller, Sr.',image:'https://images.gr-assets.com/books/1386925052l/16121.jpg')
+
+Book.create(author: "Rich Cohen", description: "When Samuel Zemurray arrived in America in 1891, he was tall, gangly, and penniless. When he died in the grandest house in New Orleans sixty-nine years later, he was among the richest, most powerful men in the world. In between, he worked as a fruit peddler, a banana hauler, a dockside hustler, and a plantation owner. He battled and conquered the United Fruit Company, becoming a symbol of the best and worst of the United States: proof that America is the land of opportunity, but also a classic example of the corporate pirate who treats foreign nations as the backdrop for his adventures. In Latin America, when people shouted “Yankee, go home!” it was men like Zemurray they had in mind.Rich Cohen’s brilliant historical profile The Fish That Ate the Whale unveils Zemurray as a hidden kingmaker and capitalist revolutionary, driven by an indomitable will to succeed. Known as El Amigo, the Gringo, or simply Z, the Banana Man lived one of the great untold stories of the last hundred years. Starting with nothing but a cart of freckled bananas, he built a sprawling empire of banana cowboys, mercenary soldiers, Honduran peasants, CIA agents, and American statesmen. From hustling on the docks of New Orleans to overthrowing Central American governments, from feuding with Huey Long to working with the Dulles brothers, Zemurray emerges as an unforgettable figure, connected to the birth of modern American diplomacy, public relations, business, and war—a monumental life that reads like a parable of the American dream." ,title:"The Fish That Ate the Whale: The Life and Times of America's Banana King", image:"https://images.gr-assets.com/books/1327473440l/13166586.jpg")
+
+Book.create(author:"Alfred Lansing", description: "This is a new reading of the thrilling account of one of the most astonishing feats of exploration and human courage ever recorded.In August of 1914, the British ship Endurance set sail for the South Atlantic. In October 1915, still half a continent away from its intended base, the ship was trapped, then crushed in the ice. For five months, Sir Ernest Shackleton and his men, drifting on ice packs, were castaways in one of the most savage regions of the world.Lansing describes how the men survived a 1,000-mile voyage in an open boat across the stormiest ocean on the globe and an overland trek through forbidding glaciers and mountains. The book recounts a harrowing adventure, but ultimately it is the nobility of these men and their indefatigable will that shines through." , title:"Endurance: Shackleton's Incredible Voyage" , image:"https://images.gr-assets.com/books/1391329559l/139069.jpg")
+
+Book.create(author:"Matt Ridley", description:"Life is getting better—and at an accelerating rate. Food availability, income, and life span are up; disease, child mortality, and violence are down — all across the globe. Though the world is far from perfect, necessities and luxuries alike are getting cheaper; population growth is slowing; Africa is following Asia out of poverty; the Internet, the mobile phone, and container shipping are enriching people’s lives as never before. The pessimists who dominate public discourse insist that we will soon reach a turning point and things will start to get worse. But they have been saying this for two hundred years.Yet Matt Ridley does more than describe how things are getting better. He explains why. Prosperity comes from everybody working for everybody else. The habit of exchange and specialization—which started more than 100,000 years ago—has created a collective brain that sets human living standards on a rising trend. The mutual dependence, trust, and sharing that result are causes for hope, not despair.This bold book covers the entire sweep of human history, from the Stone Age to the Internet, from the stagnation of the Ming empire to the invention of the steam engine, from the population explosion to the likely consequences of climate change. It ends with a confident assertion that thanks to the ceaseless capacity of the human race for innovative change, and despite inevitable disasters along the way, the twenty-first century will see both human prosperity and natural biodiversity enhanced. Acute, refreshing, and revelatory, The Rational Optimist will change your way of thinking about the world for the better." , title:"The Rational Optimist: How Prosperity Evolves" , image:"https://images.gr-assets.com/books/1347664546l/7776209.jpg")
+
+Book.create(author:"Kahlil Gibran", description:"Kahlil Gibran’s masterpiece, The Prophet, is one of the most beloved classics of our time. Published in 1923, it has been translated into more than twenty languages, and the American editions alone have sold more than nine million copies.The Prophet is a collection of poetic essays that are philosophical, spiritual, and, above all, inspirational. Gibran’s musings are divided into twenty-eight chapters covering such sprawling topics as love, marriage, children, giving, eating and drinking, work, joy and sorrow, housing, clothes, buying and selling, crime and punishment, laws, freedom, reason and passion, pain, self-knowledge, teaching, friendship, talking, time, good and evil, prayer, pleasure, beauty, religion, and death.", title: "The Prophet", image:"https://images.gr-assets.com/books/1355046521l/2547.jpg")
+
+Book.create(author:"Charles T. Munger", description:"Poor Charlie's Almanack is a collection of speeches and talks by Charlie Munger, compiled by Peter D. Kaufman. First published in 2005, it was released in an expanded edition three years later." , title:"Poor Charlie's Almanack: The Wit and Wisdom of Charles T. Munger" , image:"https://images.gr-assets.com/books/1387744370l/944652.jpg")
+
+Book.create(author:"Neal Stephenson", description:"In reality, Hiro Protagonist delivers pizza for Uncle Enzo's CosoNostra Pizza Inc., but in the Metaverse he's a warrior prince. Plunging headlong into the enigma of a new computer virus that's striking down hackers everywhere, he races along the neon-lit streets on a search-and-destroy mission for the shadowy virtual villain threatening to bring about infocalypse. Snow Crash is a mind-altering romp through a future America so bizarre, so outrageous… you'll recognize it immediately. " , title:"Snow Crash" , image:"https://images.gr-assets.com/books/1530057753l/40651883.jpg")
+
+Book.create(author:"Richard Feynman", description: "Six Easy Pieces: Essentials of Physics Explained by Its Most Brilliant Teacher is a publishing first. This set couples a book containing the six easiest chapters from Richard P. Feynman's landmark work, Lectures on Physics—specifically designed for the general, non-scientist reader—with the actual recordings of the late, great physicist delivering the lectures on which the chapters are based. Nobel Laureate Feynman gave these lectures just once, to a group of Caltech undergraduates in 1961 and 1962, and these newly released recordings allow you to experience one of the Twentieth Century's greatest minds—as if you were right there in the classroom." , title:"Six Easy Pieces: Essentials of Physics By Its Most Brilliant Teacher" , image:"https://images.gr-assets.com/books/1400827293l/5553.jpg")
+
+Book.create(author:"Tayari Jones", description:"Newlyweds Celestial and Roy are the embodiment of both the American Dream and the New South. He is a young executive, and she is an artist on the brink of an exciting career. But as they settle into the routine of their life together, they are ripped apart by circumstances neither could have imagined. In this deft exploration of love, loyalty, race, justice, and both Black masculinity and Black womanhood in 21st century America, Jones achieves that most-elusive of all literary goals: the Great American Novel. " , title: "An American Marriage", image:"https://images.gr-assets.com/books/1491493625l/33590210.jpg")
+
+Book.create(author:"Zadie Smith", description:"At the center of this invigorating novel are two unlikely friends, Archie Jones and Samad Iqbal. Hapless veterans of World War II, Archie and Samad and their families become agents of England’s irrevocable transformation. A second marriage to Clara Bowden, a beautiful, albeit tooth-challenged, Jamaican half his age, quite literally gives Archie a second lease on life, and produces Irie, a knowing child whose personality doesn’t quite match her name (Jamaican for “no problem”). Samad’s late-in-life arranged marriage (he had to wait for his bride to be born), produces twin sons whose separate paths confound Iqbal’s every effort to direct them, and a renewed, if selective, submission to his Islamic faith. Set against London’s racial and cultural tapestry, venturing across the former empire and into the past as it barrels toward the future, White Teeth revels in the ecstatic hodgepodge of modern life, flirting with disaster, confounding expectations, and embracing the comedy of daily existence." , title:"White Teeth" , image:"https://images.gr-assets.com/books/1374739885l/3711.jpg")
+
+Book.create(author:"Mohsin Hamid", description:"In a country teetering on the brink of civil war, two young people meet—sensual, fiercely independent Nadia and gentle, restrained Saeed. They embark on a furtive love affair and are soon cloistered in a premature intimacy by the unrest roiling their city. When it explodes, turning familiar streets into a patchwork of checkpoints and bomb blasts, they begin to hear whispers about doors—doors that can whisk people far away, if perilously and for a price. As the violence escalates, Nadia and Saeed decide that they no longer have a choice. Leaving their homeland and their old lives behind, they find a door and step through. Exit West follows these characters as they emerge into an alien and uncertain future, struggling to hold on to each other, to their past, to the very sense of who they are. Profoundly intimate and powerfully inventive, it tells an unforgettable story of love, loyalty, and courage that is both completely of our time and for all time." , title:"Exit West" , image:"https://images.gr-assets.com/books/1477324680l/30688435.jpg")
+
+Book.create(author:"Toni Morrison", description:"Milkman Dead was born shortly after a neighborhood eccentric hurled himself off a rooftop in a vain attempt at flight. For the rest of his life he, too, will be trying to fly. With this brilliantly imagined novel, Toni Morrison transfigures the coming-of-age story as audaciously as Saul Bellow or Gabriel García Márquez. As she follows Milkman from his rustbelt city to the place of his family’s origins, Morrison introduces an entire cast of strivers and seeresses, liars and assassins, the inhabitants of a fully realized black world." , title: "Song of Solomon", image:"https://images.gr-assets.com/books/1451448230l/11334.jpg")
+
+Book.create(author:"Steven Runciman", description: "This classic account shows how the fall of Constantinople in May 1453, after a siege of several weeks, came as a bitter shock to Western Christendom. The city's plight had been neglected, and negligible help was sent in this crisis. To the Turks, victory not only brought a new imperial capital, but guaranteed that their empire would last. To the Greeks, the conquest meant the end of the civilisation of Byzantium, and led to the exodus of scholars stimulating the tremendous expansion of Greek studies in the European Renaissance.", title: "The Fall of Constantinople 1453", image:"https://images.gr-assets.com/books/1459933680l/428521.jpg")
+
+
+Book.create(author:"Jane Austen", description:"Since its immediate success in 1813, Pride and Prejudice has remained one of the most popular novels in the English language. Jane Austen called this brilliant work 'her own darling child' and its vivacious heroine, Elizabeth Bennet, 'as delightful a creature as ever appeared in print.' The romantic clash between the opinionated Elizabeth and her proud beau, Mr. Darcy, is a splendid performance of civilized sparring. And Jane Austen's radiant wit sparkles as her characters dance a delicate quadrille of flirtation and intrigue, making this book the most superb comedy of manners of Regency England." , title:"Pride and Prejudice" , image:"https://images.gr-assets.com/books/1320399351l/1885.jpg")
+
+Book.create(author:"G.H. Hardy", description:"Written in 1940 as his mathematical powers were declining, G.H. Hardy's apology offers an engaging account of the thoughts of a man known for his eccentricities as well as his brilliance in mathematics." , title:"A Mathematician's Apology" , image:"https://images.gr-assets.com/books/1348629338l/154060.jpg")
+
+Book.create(author:"Peter Laslett", description:"The World We Have Lost is a seminal work in the study of family and class, kinship and community in England after the Middle Ages and before the changes brought about by the Industrial Revolution. The book explores the size and structure of families in pre-industrial England, the number and position of servants, the elite minority of gentry, rates of migration, the ability to read and write, the size and constituency of villages, cities and classes, conditions of work and social mobility. " , title: "The World We Have Lost", image:"https://images.gr-assets.com/books/1275492764l/1547451.jpg")
+
+Book.create(author:"Eric Ries", description:"Entrepreneur and bestselling author of The Lean Startup Eric Ries reveals how entrepreneurial principles can be used by businesses ranging from established companies to early-stage startups to grow revenues, drive innovation, and emerge as truly modern organizations poised to take advantage of the enormous opportunities of the 21st century.
+" , title:"The Startup Way: Making Entrepreneurship a Fundamental Discipline of Every Enterprise
+" , image:"https://images.gr-assets.com/books/1498813353l/34267304.jpg")
+
+Book.create(author:"Alan Paton", description:"Cry, the Beloved Country, the most famous and important novel in South Africa’s history, was an immediate worldwide bestseller in 1948. Alan Paton’s impassioned novel about a black man’s country under white man’s law is a work of searing beauty." , title:"Cry, the Beloved Country" , image:"https://images.gr-assets.com/books/1344182368l/6150.jpg")
+
+Book.create(author:"Steven Pinker", description:"The follow-up to Pinker's groundbreaking The Better Angels of Our Nature presents the big picture of human progress: people are living longer, healthier, freer, and happier lives, and while our problems are formidable, the solutions lie in the Enlightenment ideal of using reason and science. " , title:"Enlightenment Now: The Case for Reason, Science, Humanism, and Progress" , image:"https://images.gr-assets.com/books/1502223499l/35696171.jpg")
+
+Book.create(author:"Colson Whitehead", description:"Colson Whitehead brilliantly dramatizes another strand of American history through the story of two boys sentenced to a hellish reform school in Jim Crow-era Florida.As the Civil Rights movement begins to reach the black enclave of Frenchtown in segregated Tallahassee, Elwood Curtis takes the words of Dr. Martin Luther King to heart: He is as good as anyone. Abandoned by his parents, but kept on the straight and narrow by his grandmother, Elwood is about to enroll in the local black college. But for a black boy in the Jim Crow South in the early 1960s, one innocent mistake is enough to destroy the future. Elwood is sentenced to a juvenile reformatory called The Nickel Academy, whose mission statement says it provides 'physical, intellectual and moral training' so the delinquent boys in their charge can become 'honorable and honest men.'
+" , title:"The Nickel Boys" , image:"https://images.gr-assets.com/books/1539178196l/42270835.jpg")
+
+Book.create(author:"Reshma Saujani", description:"In a book inspired by her popular TED talk, New York Times bestselling author Reshma Saujani empowers women and girls to embrace imperfection and bravery." , title:"Brave, Not Perfect: Fear Less, Fail More, and Live Bolder" , image:"https://images.gr-assets.com/books/1532452716l/40364335.jpg")
+
+Book.create(author:"Angie Thomas", description: "Sixteen-year-old Bri wants to be one of the greatest rappers of all time. Or at least make it out of her neighborhood one day. As the daughter of an underground rap legend who died before he hit big, Bri’s got big shoes to fill. But now that her mom has unexpectedly lost her job, food banks and shutoff notices are as much a part of Bri’s life as beats and rhymes. With bills piling up and homelessness staring her family down, Bri no longer just wants to make it—she has to make it.On the Come Up is Angie Thomas’s homage to hip-hop, the art that sparked her passion for storytelling and continues to inspire her to this day. It is the story of fighting for your dreams, even as the odds are stacked against you; of the struggle to become who you are and not who everyone expects you to be; and of the desperate realities of poor and working-class black families.", title:"On the Come Up" , image:"https://images.gr-assets.com/books/1518828924l/35887567.jpg")
 
 
 
+#general books
 Book.create(author: 'Harper Lee', description:'The unforgettable novel of a childhood in a sleepy Southern town and the crisis of conscience that rocked it, To Kill A Mockingbird became both an instant bestseller and a critical success when it was first published in 1960. It went on to win the Pulitzer Prize in 1961 and was later made into an Academy Award-winning film, also a classic.Compassionate, dramatic, and deeply moving, To Kill A Mockingbird takes readers to the roots of human behavior - to innocence and experience, kindness and cruelty, love and hatred, humor and pathos. Now with over 18 million copies in print and translated into forty languages, this regional story by a young Alabama woman claims universal appeal. Harper Lee always considered her book to be a simple love story. Today it is regarded as a masterpiece of American literature.', title:'To Kill a Mockingbird',image:'https://images.gr-assets.com/books/1361975680l/2657.jpg')
 
 Book.create(author:'Stephenie Meyer' ,description:'About three things I was absolutely positive.First, Edward was a vampire.Second, there was a part of him—and I didnt know how dominant that part might be—that thirsted for my blood.And third, I was unconditionally and irrevocably in love with him.In the first book of the Twilight Saga, internationally bestselling author Stephenie Meyer introduces Bella Swan and Edward Cullen, a pair of star-crossed lovers whose forbidden relationship ripens against the backdrop of small-town suspicion and a mysterious coven of vampires. This is a love story with bite.',title:'Twilight',image:'https://images.gr-assets.com/books/1361039443l/41865.jpg')
@@ -45,7 +109,7 @@ Book.create(author:'John Green',description:'Despite the tumor-shrinking medical
 
 Book.create(author:'Douglas Adams',description:'Seconds before the Earth is demolished to make way for a galactic freeway, Arthur Dent is plucked off the planet by his friend Ford Prefect, a researcher for the revised edition of The Hitchhikers Guide to the Galaxy who, for the last fifteen years, has been posing as an out-of-work actor.Together this dynamic pair begin a journey through space aided by quotes from The Hitchhikers Guide ("A towel is about the most massively useful thing an interstellar hitchhiker can have) and a galaxy-full of fellow travelers: Zaphod Beeblebrox—the two-headed, three-armed ex-hippie and totally out-to-lunch president of the galaxy; Trillian, Zaphods girlfriend (formally Tricia McMillan), whom Arthur tried to pick up at a cocktail party once upon a time zone; Marvin, a paranoid, brilliant, and chronically depressed robot; Veet Voojagig, a former graduate student who is obsessed with the disappearance of all the ballpoint pens he bought over the years.', title:'The Hitchhikers Guide to the Galaxy',image:'https://images.gr-assets.com/books/1388282444l/386162.jpg')
 
-Book.create(author:'Shel Silverstein',description:'Once there was a tree...and she loved a little boy.So begins a story of unforgettable perception, beautifully written and illustrated by the gifted and versatile Shel Silverstein.Every day the boy would come to the tree to eat her apples, swing from her branches, or slide down her trunk...and the tree was happy. But as the boy grew older he began to want more from the tree, and the tree gave and gave and gave.This is a tender story, touched with sadness, aglow with consolation. Shel Silverstein has created a moving parable for readers of all ages that offers an affecting interpretation of the gift of giving and a serene acceptance of anothers capacity to love in return.',title:'The Giving Tree',image:'https://images.gr-assets.com/books/1174210942l/370493.jpg')
+
 
 Book.create(author:'Dan Brown',description:'An ingenious code hidden in the works of Leonardo da Vinci.A desperate race through the cathedrals and castles of Europe.An astonishing truth concealed for centuries . . . unveiled at last.While in Paris, Harvard symbologist Robert Langdon is awakened by a phone call in the dead of the night. The elderly curator of the Louvre has been murdered inside the museum, his body covered in baffling symbols. As Langdon and gifted French cryptologist Sophie Neveu sort through the bizarre riddles, they are stunned to discover a trail of clues hidden in the works of Leonardo da Vinci—clues visible for all to see and yet ingeniously disguised by the painter.Even more startling, the late curator was involved in the Priory of Sion—a secret society whose members included Sir Isaac Newton, Victor Hugo, and Da Vinci—and he guarded a breathtaking historical secret. Unless Langdon and Neveu can decipher the labyrinthine puzzle—while avoiding the faceless adversary who shadows their every move—the explosive, ancient truth will be lost forever.',title:'The Da Vinci Code',image:'https://images.gr-assets.com/books/1303252999l/968.jpg')
 
@@ -63,52 +127,81 @@ Book.create(author:"Aldous Huxley",description:"Brave New World is a dystopian n
 
 Book.create(author: "J.D. Salinger" ,description: "The hero-narrator of The Catcher in the Rye is an ancient child of sixteen, a native New Yorker named Holden Caulfield. Through circumstances that tend to preclude adult, secondhand description, he leaves his prep school in Pennsylvania and goes underground in New York City for three days. The boy himself is at once too simple and too complex for us to make any final comment about him or his story. Perhaps the safest thing we can say about Holden is that he was born in the world not just strongly attracted to beauty but, almost, hopelessly impaled on it. There are many voices in this novel: childrens voices, adult voices, underground voices-but Holdens voice is the most eloquent of all. Transcending his own vernacular, yet remaining marvelously faithful to it, he issues a perfectly articulated cry of mixed pain and pleasure. However, like most lovers and clowns and poets of the higher orders, he keeps most of the pain to, and for, himself. The pleasure he gives away, or sets aside, with all his heart. It is there for the reader who can handle it to keep. J.D. Salingers classic novel of teenage angst and rebellion was first published in 1951. The novel was included on Times 2005 list of the 100 best English-language novels written since 1923. It was named by Modern Library and its readers as one of the 100 best English-language novels of the 20th century. It has been frequently challenged in the court for its liberal use of profanity and portrayal of sexuality and in the 1950s and 60s it was the novel that every teenage boy wants to read.",title:"The Catcher in the Rye",image:"https://images.gr-assets.com/books/1398034300l/5107.jpg")
 
-
-Userbook.create(user_id: 1 ,book_id: 1)
-Userbook.create(user_id: 1,book_id: 2)
-Userbook.create(user_id: 1,book_id: 3)
-Userbook.create(user_id: 1,book_id: 4)
-Userbook.create(user_id: 1,book_id: 5)
-Userbook.create(user_id: 1,book_id: 6)
-Userbook.create(user_id: 1,book_id: 7)
-Userbook.create(user_id: 2,book_id: 8)
-Userbook.create(user_id: 2,book_id: 9)
-Userbook.create(user_id: 2,book_id: 10)
-Userbook.create(user_id: 2,book_id: 11)
-Userbook.create(user_id: 2,book_id: 12)
-Userbook.create(user_id: 2,book_id: 13)
-Userbook.create(user_id: 2,book_id: 14)
-Userbook.create(user_id: 2,book_id: 15)
-Userbook.create(user_id: 2,book_id: 16)
-Userbook.create(user_id: 3 ,book_id: 1)
-Userbook.create(user_id: 3,book_id: 2)
-Userbook.create(user_id: 3,book_id: 3)
-Userbook.create(user_id: 3,book_id: 4)
-Userbook.create(user_id: 3,book_id: 5)
-Userbook.create(user_id: 3,book_id: 6)
-Userbook.create(user_id: 3,book_id: 7)
-Userbook.create(user_id: 4,book_id: 8)
-Userbook.create(user_id: 4,book_id: 9)
-Userbook.create(user_id: 4,book_id: 10)
-Userbook.create(user_id: 4,book_id: 11)
-Userbook.create(user_id: 4,book_id: 12)
-Userbook.create(user_id: 4,book_id: 13)
-Userbook.create(user_id: 4,book_id: 14)
-Userbook.create(user_id: 4,book_id: 15)
-Userbook.create(user_id: 4,book_id: 16)
-Userbook.create(user_id: 5 ,book_id: 1)
-Userbook.create(user_id: 5,book_id: 2)
-Userbook.create(user_id: 5,book_id: 3)
-Userbook.create(user_id: 5,book_id: 4)
-Userbook.create(user_id: 5,book_id: 5)
-Userbook.create(user_id: 5,book_id: 6)
-Userbook.create(user_id: 5,book_id: 7)
-Userbook.create(user_id: 5,book_id: 8)
-Userbook.create(user_id: 5,book_id: 9)
-Userbook.create(user_id: 5,book_id: 10)
-Userbook.create(user_id: 5,book_id: 11)
-Userbook.create(user_id: 5,book_id: 12)
-Userbook.create(user_id: 5,book_id: 13)
-Userbook.create(user_id: 5,book_id: 14)
-Userbook.create(user_id: 5,book_id: 15)
+#random users & their books
+Userbook.create(user_id: 1 ,book_id: 25)
+Userbook.create(user_id: 1,book_id: 26)
+Userbook.create(user_id: 1,book_id: 27)
+Userbook.create(user_id: 1,book_id: 28)
+Userbook.create(user_id: 1,book_id: 29)
+Userbook.create(user_id: 1,book_id: 30)
+Userbook.create(user_id: 1,book_id: 31)
+Userbook.create(user_id: 2,book_id: 32)
+Userbook.create(user_id: 2,book_id: 33)
+Userbook.create(user_id: 2,book_id: 34)
+Userbook.create(user_id: 2,book_id: 35)
+Userbook.create(user_id: 2,book_id: 36)
+Userbook.create(user_id: 2,book_id: 37)
+Userbook.create(user_id: 2,book_id: 38)
+Userbook.create(user_id: 2,book_id: 39)
+Userbook.create(user_id: 2,book_id: 25)
+Userbook.create(user_id: 3 ,book_id: 25)
+Userbook.create(user_id: 3,book_id: 26)
+Userbook.create(user_id: 3,book_id: 27)
+Userbook.create(user_id: 3,book_id: 28)
+Userbook.create(user_id: 3,book_id: 29)
+Userbook.create(user_id: 3,book_id: 30)
+Userbook.create(user_id: 3,book_id: 31)
+Userbook.create(user_id: 4,book_id: 31)
+Userbook.create(user_id: 4,book_id: 32)
+Userbook.create(user_id: 4,book_id: 33)
+Userbook.create(user_id: 4,book_id: 34)
+Userbook.create(user_id: 4,book_id: 35)
+Userbook.create(user_id: 4,book_id: 36)
+Userbook.create(user_id: 5 ,book_id: 25)
+Userbook.create(user_id: 5,book_id: 26)
+Userbook.create(user_id: 5,book_id: 27)
+Userbook.create(user_id: 5,book_id: 29)
+Userbook.create(user_id: 5,book_id: 32)
 Userbook.create(user_id: 5,book_id: 16)
+Userbook.create(user_id: 5,book_id: 17)
+Userbook.create(user_id: 5,book_id: 18)
+Userbook.create(user_id: 5,book_id: 19)
+Userbook.create(user_id: 6,book_id: 25)
+Userbook.create(user_id: 6,book_id: 29)
+Userbook.create(user_id: 6,book_id: 26)
+Userbook.create(user_id: 6,book_id: 11)
+Userbook.create(user_id: 6,book_id: 12)
+Userbook.create(user_id: 6,book_id: 18)
+Userbook.create(user_id: 6,book_id: 16)
+
+#intentional books & users
+#Ryan Holiday
+Userbook.create(user_id: 7 ,book_id: 1)
+Userbook.create(user_id: 7 ,book_id: 2)
+Userbook.create(user_id: 7 ,book_id: 3)
+Userbook.create(user_id: 7 ,book_id: 4)
+Userbook.create(user_id: 7 ,book_id: 5)
+#Naval
+Userbook.create(user_id: 8 ,book_id: 6)
+Userbook.create(user_id: 8 ,book_id: 7)
+Userbook.create(user_id: 8 ,book_id: 8)
+Userbook.create(user_id: 8 ,book_id: 9)
+Userbook.create(user_id: 8 ,book_id: 10)
+#Michelle
+Userbook.create(user_id: 9 ,book_id: 11)
+Userbook.create(user_id: 9 ,book_id: 12)
+Userbook.create(user_id: 9 ,book_id: 13)
+Userbook.create(user_id: 9 ,book_id: 14)
+Userbook.create(user_id: 9 ,book_id: 24)
+#Paul
+Userbook.create(user_id: 10 ,book_id: 15)
+Userbook.create(user_id: 10 ,book_id: 16)
+Userbook.create(user_id: 10 ,book_id: 17)
+Userbook.create(user_id: 10 ,book_id: 18)
+Userbook.create(user_id: 10 ,book_id: 19)
+#Melinda
+Userbook.create(user_id: 11 ,book_id: 20)
+Userbook.create(user_id: 11 ,book_id: 21)
+Userbook.create(user_id: 11 ,book_id: 22)
+Userbook.create(user_id: 11 ,book_id: 23)
+Userbook.create(user_id: 11 ,book_id: 24)
