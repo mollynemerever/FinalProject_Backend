@@ -21,6 +21,8 @@ class UserfollowerrelationshipsController < ApplicationController
     render json: @all, status: :accepted
   end
 
+  
+
   private
 
   def relationship_params
