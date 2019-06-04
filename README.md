@@ -24,6 +24,8 @@ There is a need for a platform which focuses on providing users with a tool to c
  
 
 #### 5. Access Instructions
+ - *Heroku link to be added*
+ - Youtube Demo: https://www.youtube.com/watch?v=1ANdzKvmdCU&t=1s
 
 #### 6. Frontend Repository
 Frontend respository can be found here: https://github.com/mollynemerever/FinalProject_Frontend
